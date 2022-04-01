@@ -11,7 +11,7 @@ namespace G5_Website_giay.Controllers
     
     public class HomeController : Controller
     {
-        public OnlineShopShoesEntities4 db = new OnlineShopShoesEntities4();
+        public OnlineShopShoesEntities5 db = new OnlineShopShoesEntities5();
 
         public IEnumerable<SanPham> AllListPaging(int page , int pageSize)
         {
